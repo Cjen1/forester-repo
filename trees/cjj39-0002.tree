@@ -1,0 +1,11 @@
+\date{2024-07-14}
+\title{Failure and recovery in F+1 and vertical paxos}
+\author{Chris Jensen}
+
+\p{
+  Supposing the standard approach of VerticalPaxos and an external configuration manager.
+
+  Here failure of any node blocks the cluster, since it is not failure masking.
+}
+
+\transclude{cjj39-0003} %VPaxos is not SMR

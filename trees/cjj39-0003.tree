@@ -1,0 +1,22 @@
+\date{2024-07-14}
+\title{Hypothesis: Configuration manager is strictly weaker than SMR and consensus}
+\author{Chris Jensen}
+
+\p{
+  Looking at FLP result and verticalpaxos consider the following system.
+}
+
+\p{
+  Each config replica maintains an infinite array of configuration, and counter for virtual synchronous leases.
+  A reconfiguration manager contacts a majority of replicas, proposing a virtually synchronous lease for it.
+  Each config replica only provides the lease if it is the highest so far.  
+
+  Once receiving the lease, the RM reconfigures, then writes into the array at the index of the lease the new configuration.
+
+  Reading the newest configuration is simply reading a majority of replicas and then using the highest configuration.
+}
+
+\p{
+  The question is whether this is FLP avoiding.
+}
+

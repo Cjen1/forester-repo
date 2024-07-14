@@ -4,32 +4,9 @@
 
 \p{
   Currently consensus requires 2f+1 at least for consensus.
-  This is more than is necessary and increases complexity, unless the following is true:
-
-  \em{You need 100% uptime.}
-
-  In all other cases f+1 is sufficient.
+  Unless you require 100\% uptime, this is unnecessary and consensus can instead function on F+1 replicas.
 }
 
-\p{
-  Specifically consider the following two cases.
-}
+\transclude{cjj39-0002}
 
-\p{
-  Vertical Paxos.
-  The standard appraoch is to use vertical paxos for consensus, and then that allows f+1 systems to be used (and recoverable but not failure masking).
-  However still a vertical paxos configuration manager must still be run.
-
-  Hypothesis: VerticalPaxos configuration manager is a strictly weaker problem than consensus.
-
-  This simplifies the configuration manager, and allows reconfiguration to keep retrying until a stable configuration is reached.
-  This does not violate FLP since an adversarial network can still cause fault to 'appear' in each configuration and hence force reconfiguration.
-}
-
-\p{
-  Supposing that this is a low uptime system. So several hours of outage is fine while you fix it.
-  In this case f+1 is fine, since the loss of any node is recoverable using any other.
-  However once any node fails the system becomes unresponsive and must be recovered (this is expected behaviour).
-
-  However here the user is the conensus system, and for small scale deployments this is fine.
-}
+\transclude{cjj39-0004}
