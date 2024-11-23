@@ -1,6 +1,8 @@
 \date{2024-07-14}
-\title{Failure and recovery in F+1 and vertical paxos}
-\author{Chris Jensen}
+\title{failure and recovery in $f+1$ and vertical paxos}
+\author{cjj39}
+\taxon{remark}
+
 
 \p{
   Supposing the standard approach of VerticalPaxos and an external configuration manager.

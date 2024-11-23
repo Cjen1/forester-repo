@@ -1,6 +1,9 @@
 \date{2024-07-14}
-\title{Hypothesis: Configuration manager is strictly weaker than SMR and consensus}
-\author{Chris Jensen}
+\title{configuration manager is strictly weaker than SMR and consensus}
+\author{cjj39}
+\taxon{hypothesis}
+\tag{unproven}
+
 
 \p{
   Looking at FLP result and verticalpaxos consider the following system.
@@ -17,6 +20,6 @@
 }
 
 \p{
-  The question is whether this is FLP avoiding.
+  The question is whether this is FLP avoiding, similar to read-write registers.
 }
 

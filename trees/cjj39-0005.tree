@@ -1,9 +1,7 @@
 \date{2024-07-14}
-\title{Consensus}
-\author{Chris Jensen}
+\title{consensus}
+\author{cjj39}
 
-\p{
-  \ul{
-    \li{[F+1 is perhaps all you need](http://forester.jentek.dev/cjj39-0001.xml)}
-  }
-}
+\put\transclude/expanded{false}
+
+\transclude{cjj39-0001}

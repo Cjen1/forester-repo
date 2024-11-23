@@ -1,0 +1,12 @@
+\date{2024-08-02}
+\title{Rummikub is solvable using a normalised form}
+\author{cjj39}
+\taxon{conjecture}
+
+\p{
+  The idea is that there are two normalised forms of any rummikub board which can be simply converted between.
+
+  One which maximises the tiles in the runs, and one which maximises the number of tiles in duplicates.
+
+  The conjecture is that if a tile is placable, it will be directly placable in one of these two normalised forms.
+}

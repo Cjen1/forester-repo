@@ -1,6 +1,7 @@
 \date{2024-07-14}
-\title{What is the simplest to run configuration manager?}
-\author{Chris Jensen}
+\title{what is the simplest to run configuration manager?}
+\author{cjj39}
+\taxon{remark}
 
 \p{
   One important point in VerticalPaxos is that the configuration manager only need to be able to provide the current configuration, and to provide monotonically increasing configurations where each one knows of all lower ones.

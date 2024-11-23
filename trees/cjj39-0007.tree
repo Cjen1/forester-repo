@@ -1,0 +1,27 @@
+\date{2024-11-23}
+\title{Syntax highlighting and unicode for tla+ in papers}
+\author{cjj39}
+\taxon{advice}
+\tag{latex}
+\tag{tla}
+
+\p{
+TLA+ unicode is well done via https://github.com/tlaplus-community/tlauc
+}
+
+\p{
+  Syntax highlighting is more difficult with unicode in latex.
+}
+
+\p{
+  Since latex listings does not support unicode, and cannot be made to support unicode for syntax highlighting, you are left with minted.
+  The issue is that minted does not support tla out of the box, and minted does not support custom pygmentise parsers easily.
+}
+
+\p{
+  Solution: Use chromacolor, https://github.com/TomLebeda/chroma_code, with the relevant tree-sitter grammar already loaded.
+}
+
+\p{
+  Note that the latest tree-sitter-tla does NOT support tree-sitter <0.25, so ensure you have at least this version (2024-11-23).
+}

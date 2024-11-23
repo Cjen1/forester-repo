@@ -1,8 +1,23 @@
 \title{Chris Jensen's Forest}
 
 \p{
-  This is my forest of thoughts about things.
-  \ul{
-    \li{\transclude{cjj39-0005}}
-  }
+  I am a distributed systems researcher, focusing specifically on simplifying the underlying protocols for strongly consistent distributed databases.
+}
+
+\put\transclude/expanded{false}
+\put\transclude/toc{false}
+
+\scope{
+ \put\transclude/title{consensus}
+ \transclude{cjj39-0005}
+}
+
+\scope{
+  \put\transclude/title{Advice}
+  \transclude{cjj39-0008}
+}
+
+\scope{
+ \put\transclude/title{random-theory}
+ \transclude{cjj39-0009}
 }
