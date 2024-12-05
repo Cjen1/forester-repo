@@ -1,0 +1,13 @@
+\date{2024-12-05}
+\title{AI root cause analysis}
+\author{cjj39}
+
+\p{
+  Automation: "What is the cause of this bug"
+}
+\p{
+  Augmentation: "Static analysis to overestimate the codepaths which could trigger the bug"
+}
+\p{
+  Augmentation: "Logs filtering to automatically remove 'normal' messages"
+}

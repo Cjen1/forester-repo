@@ -1,0 +1,46 @@
+\date{2024-12-05}
+\title{Automation and Augmentation. or: Alienation and Agency}
+\author{cjj39}
+
+\p{
+  A recent blog post made the comment that current technology is alienating as it removes agency.
+  Although this could be an effect of the current enshitification game-plan of tech companies it could also come from the aim of the tech itself.
+}
+
+\transclude{cjj39-000B}
+
+\transclude{cjj39-000C}
+
+\p{
+  My thesis is that since the primary aim of automated systems is to make an action or job take less time, its compatibility with human operators is not a primary design goal.
+  Hence these systems do not provide affordances for humans, alienating them and removing their agency.
+  Instead we can build systems to augment operators, allowing them to perform tasks better.
+}
+
+\p{
+  We currently have many AI systems which aim to automate many things.
+  However, the affordances arising from these systems are markedly discontinuous.
+  Especially the current crop of AI systems which actively use randomness to 'mix up' the output.
+}
+
+\transclude{cjj39-000D}
+
+\transclude{cjj39-000E}
+
+\transclude{cjj39-000F}
+
+\p{
+  \strong{
+  Conclusion.
+  }
+}
+
+\p{
+  My hope is that we can move from aiming to build automagic solutions to instead build augmenting solutions.
+}
+
+\p{
+  To adapt a quote from RainWorld.
+  With AI automation we have put our faith in the hands of Random Gods.
+}
+

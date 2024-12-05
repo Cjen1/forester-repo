@@ -1,0 +1,22 @@
+\date{2024-12-05}
+\title{Augmentation}
+\author{cjj39}
+
+\p{
+  Augmentation aims to allow people to do a job better.
+}
+
+\p{
+  For example, in the driving space, ABS, adaptive cruise control and lane keeping have been very very successful, and allows drivers to pay more attention to the drivers around them while still acting reasonably when there is an issue.
+}
+
+\p{
+  Augmented systems have the following important characteristic.
+  They tend to be continuous.
+  Supply them input similar to previous inputs and they will produce similar outputs.
+  In practise this means that humans can learn how these systems react and rely on that reaction.
+}
+
+\p{
+  This gives users agency in preemptively correcting unwanted actions. 
+}

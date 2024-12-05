@@ -1,0 +1,10 @@
+\date{2024-12-05}
+\title{AI automation and augmentation of Doctors}
+\author{cjj39}
+
+\p{
+  Automation: Looking at a picture of a tumor to decide if its cancerous.
+}
+\p{
+  Augmentation: rescaling pictures to be consistent and giving them false color to visualise other datapoints
+}
