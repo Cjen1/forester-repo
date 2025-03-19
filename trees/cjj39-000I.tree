@@ -1,0 +1,12 @@
+\date{2025-03-19}
+\title{Conflict detection and ordering datastructures}
+\author{cjj39}
+
+\p{
+  The primary purpose of most deployed consensus protocols is to order requests.
+  Hence the datastructure used is relevant.
+}
+
+\p{
+  These datastructures can be very simple, from a lock around the value, to the very complex, a DAG of transactions
+}

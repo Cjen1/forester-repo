@@ -1,0 +1,14 @@
+\date{2025-03-19}
+\title{The steady state of consensus protocols is actually easy}
+\author{cjj39}
+
+\p{
+  Over the past 25 years of production consensus systems, many, many, protocols have been proposed.
+  However the majority of them do not differ by very much
+}
+
+\transclude{cjj39-000I}
+
+\transclude{cjj39-000J}
+
+\transclude{cjj39-000K}
