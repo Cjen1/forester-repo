@@ -1,0 +1,13 @@
+\date{2026-01-08}
+\title{Monotonic systems are easier}
+\taxon{article}
+\tag{consensus}
+
+\p{
+If your state is monotonic then caching becomes trivial.
+}
+
+\p{
+If your value is also monotonic then you can reason about second hand knowledge (known to be known).
+}
+
